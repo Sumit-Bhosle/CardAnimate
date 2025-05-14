@@ -93,14 +93,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('./work-Life_balance.jpg');
+    background-image: url('./assets/work-Life_balance.jpg');
 }
 .card[for="c2"] {
-    background-image: url('./music.jpg');
+    background-image: url('./assets/music.jpg');
 }
 .card[for="c3"] {
-    background-image: url('./luxury.jpg');
+    background-image: url('./assets/luxury.jpg');
 }
 .card[for="c4"] {
-    background-image: url('./fitness.jpg');
+    background-image: url('./assets/fitness.jpg');
 }

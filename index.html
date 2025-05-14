@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Animated Flex Cards</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="container">
@@ -53,4 +54,20 @@
         </div>
     </div>
 </body>
+<!-- Sound Effect -->
+<audio id="swooshSound" src="assets/swoosh.mp3" preload="auto"></audio>
+
+<script>
+  const inputs = document.querySelectorAll('input[name="slide"]');
+  const swoosh = document.getElementById('swooshSound');
+  swoosh.volume = 0.3;
+
+  inputs.forEach(input => {
+    input.addEventListener('change', () => {
+      swoosh.currentTime = 0;
+      swoosh.play();
+    });
+  });
+</script>
+
 </html>
